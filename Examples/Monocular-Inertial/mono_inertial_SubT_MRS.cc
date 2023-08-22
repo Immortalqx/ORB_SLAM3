@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
         string pathSeq(argv[(2 * seq) + 3]);
         string pathTimeStamps(argv[(2 * seq) + 4]);
 
-        string pathCam0 = pathSeq + "/raw_sensor_data/cam0";
+        string pathCam0 = pathSeq + "/raw_sensor_data/cam_0";
         string pathImu = pathSeq + "/raw_sensor_data/imu/imu_data.csv";
 
         LoadImages(pathCam0, pathTimeStamps, vstrImageFilenames[seq], vTimestampsCam[seq]);
